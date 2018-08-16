@@ -514,7 +514,7 @@ a {
     -ms-flex-pack: center;
     justify-content: center; }
     body main .pageWrapper footer .footWrap ul li {
-      margin: 0 15% 0 7%; } }
+      margin: 0 15% 0 5%; } }
 
 @media only screen and (max-width: 500px) {
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
