@@ -1,0 +1,244 @@
+
+
+/* Large laptops */
+@media (max-width: 1440px) {
+	body {
+		background:white;
+	}
+
+	.content {
+		
+	}
+
+	.wrapper {
+
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 1024px) {
+	body {
+		background:white;
+	}
+
+	.nav {
+		form {
+			margin-right: 10px;
+			input{
+
+			}
+		}
+		.navFoot{
+			.footIcon{
+				margin-right: 10px;
+			}
+			.footInfo{
+				// padding: 0 25px 0 25px;
+				li{
+					a {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	.scrollNav{
+
+	}
+	
+	.wrapper{
+		width: 100%;
+		.burger {
+			top: 23px;
+			left: 20px;
+			font-size: 32px;
+		}
+
+		.logo {
+			font-size: 36px;
+			margin: 15px 0 0 60px;
+		}
+
+		.fullbleed {
+			a{
+				h1{
+					font-family: "Martel", serif;
+					font-size: 60px;
+					margin: 0;
+					padding: 0;
+					position: absolute;
+					top: 625px;
+					left: 50px;
+				}
+				h2{
+
+				}
+			}
+		}
+
+		.fWrap{
+			.fBox{
+
+			}
+		}
+	}
+
+
+	.content {
+		.supportButton {
+
+		}
+		.divider1{
+
+		}
+		.topStories{
+			.aBox{
+				.bImg{
+
+				}
+				.bTxt{
+
+				}
+			}
+		}
+	}
+
+	.podcastBlock{
+		.pBlocks{
+			.pImg{
+
+			}
+			.pTxt{
+
+			}
+		}
+	}
+
+	.newsWrapper {
+		.newsBlock {
+			.whiteBlock1{
+
+			}
+			.whiteBlock2{
+				form {
+					input {
+
+					}
+				}
+			}
+			h1 {
+
+			}
+			.newsButton {
+				a {
+					p{
+
+					}
+				}
+			}
+		}
+	}
+
+	.footWrap{
+
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body {
+		background:cadetblue;
+	}
+
+	body {
+		background:red;
+	}
+
+	.nav {
+
+	}
+
+	.scrollNav{
+
+	}
+	
+	.wrapper{
+		width: 100%;
+		.burger {
+
+		}
+
+		.logo {
+
+		}
+
+		.fullbleed {
+		}
+
+		.fWrap{
+			.fBox{
+
+			}
+		}
+	}
+
+
+	.content {
+		.supportButton {
+
+		}
+		.divider1{
+
+		}
+		.topStories{
+			.aBox{
+				.bImg{
+
+				}
+				.bTxt{
+
+				}
+			}
+		}
+	}
+
+	.podcastBlock{
+		.pBlocks{
+			.pImg{
+
+			}
+			.pTxt{
+
+			}
+		}
+	}
+
+	.newsWrapper {
+		.newsBlock {
+			.whiteBlock1{
+
+			}
+			.whiteBlock2{
+				form {
+					input {
+
+					}
+				}
+			}
+			h1 {
+
+			}
+			.newsButton {
+				a {
+					p{
+
+					}
+				}
+			}
+		}
+	}
+
+	.footWrap{
+		
+	}
+}
