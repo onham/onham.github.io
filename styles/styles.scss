@@ -213,7 +213,6 @@ a {
 						background: #8C8;
 						border: 1px solid lightgrey;
 						border-radius: 5px;
-						counter-increment: carousel-cell;
 						background: center center;
 						background-size: cover;
 						background-image: linear-gradient(
@@ -436,17 +435,18 @@ a {
 						}
 						.cBox2{
 							.carousel {
+								max-width: 100%;
 								.carousel-cell {
-									width: 66%;
+									width: 100%;
 									.carousel-label{
 										display: inline;
 										text-align: center;
 										h3 {
-											font-size: 40px;
-											padding: 30% 0 0 0;
+											font-size: 50px;
+											padding: 20% 0 0 0;
 										}
 										h4 {
-											font-size: 20px;
+											font-size: 30px;
 											padding: 0 0 0 0%;
 										}
 									}
@@ -487,11 +487,11 @@ a {
 								.carousel-cell {
 									.carousel-label{
 										h3 {
-											font-size: 30px;
-											padding: 50% 0 0 0;
+											font-size: 40px;
+											padding: 37% 0 0 0;
 										}
 										h4 {
-											font-size: 20px;
+											font-size: 24px;
 											padding: 0 0 0 0%;
 										}
 									}
@@ -526,7 +526,7 @@ a {
 								.carousel-cell {
 									.carousel-label{
 										h3 {
-											padding: 60% 0 0 0;
+											padding: 42% 0 0 0;
 										}
 										h4 {
 											padding: 0 0 0 0%;

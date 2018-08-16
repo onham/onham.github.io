@@ -351,7 +351,6 @@ a {
         background: #8C8;
         border: 1px solid lightgrey;
         border-radius: 5px;
-        counter-increment: carousel-cell;
         background: center center;
         background-size: cover;
         background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../assets/blockchain.jpeg");
@@ -496,17 +495,19 @@ a {
     height: 80vh; }
   body main .pageWrapper .content .wrapper .cBox h2 {
     margin-left: 15px; }
-  body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell {
-    width: 66%; }
-    body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label {
-      display: inline;
-      text-align: center; }
-      body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
-        font-size: 40px;
-        padding: 30% 0 0 0; }
-      body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h4 {
-        font-size: 20px;
-        padding: 0 0 0 0%; }
+  body main .pageWrapper .content .wrapper .cBox2 .carousel {
+    max-width: 100%; }
+    body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell {
+      width: 100%; }
+      body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label {
+        display: inline;
+        text-align: center; }
+        body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
+          font-size: 50px;
+          padding: 20% 0 0 0; }
+        body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h4 {
+          font-size: 30px;
+          padding: 0 0 0 0%; }
   body main .pageWrapper .content .wrapper .cBox4 .snapwidget-widget {
     width: 100%; }
   body main .pageWrapper footer .footWrap ul {
@@ -517,10 +518,10 @@ a {
 
 @media only screen and (max-width: 500px) {
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
-    font-size: 30px;
-    padding: 50% 0 0 0; }
+    font-size: 40px;
+    padding: 37% 0 0 0; }
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h4 {
-    font-size: 20px;
+    font-size: 24px;
     padding: 0 0 0 0%; } }
 
 @media only screen and (max-width: 400px) {
@@ -529,7 +530,7 @@ a {
   body main .pageWrapper .content .wrapper .cBox h2 {
     margin-left: 15px; }
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
-    padding: 60% 0 0 0; }
+    padding: 42% 0 0 0; }
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h4 {
     padding: 0 0 0 0%; } }
 
