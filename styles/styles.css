@@ -495,7 +495,7 @@ a {
   body main .pageWrapper .hero .fullbleed {
     height: 80vh; }
   body main .pageWrapper .content .wrapper .cBox h2 {
-    margin-left: 20px; }
+    margin-left: 15px; }
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell {
     width: 66%; }
     body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label {
@@ -514,7 +514,7 @@ a {
     -ms-flex-pack: center;
     justify-content: center; }
     body main .pageWrapper footer .footWrap ul li {
-      margin: 0 15% 0 10%; } }
+      margin: 0 15% 0 7%; } }
 
 @media only screen and (max-width: 500px) {
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
