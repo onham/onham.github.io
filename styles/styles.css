@@ -510,11 +510,10 @@ a {
   body main .pageWrapper .content .wrapper .cBox4 .snapwidget-widget {
     width: 100%; }
   body main .pageWrapper footer .footWrap ul {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
     body main .pageWrapper footer .footWrap ul li {
-      margin: 0 15% 0 3%; } }
+      margin: 0 0% 0 5%; } }
 
 @media only screen and (max-width: 500px) {
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
