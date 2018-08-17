@@ -453,9 +453,9 @@ a {
     body main .navbar .burger {
       display: none; }
     body main .navbar .navbarLink {
-      margin: 0 0 0 5%; }
+      margin: 0 1% 0 6%; }
       body main .navbar .navbarLink.link {
-        margin: 0 7% 0 11%; }
+        margin: 0 5% 0 7%; }
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label {
     display: inline;
     text-align: center; }
@@ -519,7 +519,7 @@ a {
 @media only screen and (max-width: 500px) {
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h3 {
     font-size: 40px;
-    padding: 37% 0 0 0; }
+    padding: 40% 0 0 0; }
   body main .pageWrapper .content .wrapper .cBox2 .carousel .carousel-cell .carousel-label h4 {
     font-size: 24px;
     padding: 0 0 0 0%; } }
